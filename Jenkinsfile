@@ -1,4 +1,4 @@
-Pipeline{
+pipeline{
   node amazon-slave
   stages {
         stage('Checkout') {
