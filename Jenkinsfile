@@ -1,5 +1,5 @@
 pipeline{
-  node amazon-slave
+  agent any
   stages {
         stage('Checkout') {
             steps {
